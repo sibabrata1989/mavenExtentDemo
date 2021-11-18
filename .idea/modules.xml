@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SeleniumWithExtentDemo.iml" filepath="$PROJECT_DIR$/SeleniumWithExtentDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenExtentDemo.iml" filepath="$PROJECT_DIR$/mavenExtentDemo.iml" />
     </modules>
   </component>
 </project>

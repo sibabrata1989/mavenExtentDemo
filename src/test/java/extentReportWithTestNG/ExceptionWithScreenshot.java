@@ -46,9 +46,9 @@ public class ExceptionWithScreenshot {
 		//Sets header of the Test Data
 		objExcel.SetListHeader(testDataDir + "TestData.xlsx", 0);
 		//setup extent report
-		reports = common.definition("Extent Report with Screenshot");
+		reports = common.definition("Extent_Report_with_Screenshot");
 		// Chrome Driver should be installed in your System
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/TestResources/chromedriver_85_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/TestResources/chromedriver_85_win32/chromedriver");
 		driver = new ChromeDriver();
 		Properties prp = common.getPropertyFile();
 		driver.get(prp.getProperty("Url"));

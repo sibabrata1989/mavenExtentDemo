@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SeleniumWithExtentDemo" />
+        <module name="mavenExtentDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mavenExtentDemo" target="7" />
       <module name="SeleniumWithExtentDemo" target="7" />
     </bytecodeTargetLevel>
   </component>
